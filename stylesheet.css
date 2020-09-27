@@ -1,0 +1,97 @@
+body {
+  font-family: "Avenir Next";
+}
+
+li {
+  list-style: none;
+}
+
+.header {
+  background-color: #b22222;
+  color: #fff;
+  height: 90px;
+}
+
+.header-logo {
+  float: left;
+  font-size: 36px;
+  padding: 20px 40px;
+}
+
+.header-list li {
+  float: left;
+  padding: 33px 20px;
+}
+
+.main {
+  background-color: #ff7f50;
+  height: 1050px;
+}
+
+.footer {
+  /* background-colorを#2f5167に変更してください */
+  background-color: #b22222;
+  
+  /* colorを#fffにしてください */
+  color: #fff;
+  
+  /* heightを120pxに変更してください */
+  height: 120px;
+  /* 上下左右のpaddingを40pxにしてください */
+  padding: 40px;
+  
+}
+
+/* footer-logoのfont-sizeとfloatを指定してください */
+.footer-logo {
+  font-size: 32px;
+  float: left;
+}
+
+/* footer-listのfloatを指定してください */
+.footer-list {
+  float: right;
+}
+
+/* footer-listの中のli要素のpadding-bottomを指定してください */
+.footer-list li {
+  padding-bottom: 20px;
+}
+
+.box29 {
+    margin: 2em 0;
+    background: #f0e68c;
+}
+.box29 .box-title {
+    font-size: 1.2em;
+    background: #ff8c00;
+    padding: 6px;
+    text-align: center;
+    color: #FFF;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+}
+.box29 p {
+    padding: 15px 20px;
+    margin: 0;
+}
+
+#dk {
+  color: #dc143c;
+}
+
+a.btn--orange {
+  color: #fff;
+  background-color: #eb6100;
+  border-bottom: 5px solid #b84c00;
+}
+a.btn--orange:hover {
+  margin-top: 3px;
+  color: #fff;
+  background: #f56500;
+  border-bottom: 2px solid #b84c00;
+}
+a.btn--shadow {
+  -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
+  box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
+}
