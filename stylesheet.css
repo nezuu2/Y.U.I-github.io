@@ -1,5 +1,6 @@
 body {
   font-family: "Avenir Next";
+  background-color: #e7e7e7;
 }
 
 li {
@@ -7,9 +8,10 @@ li {
 }
 
 .header {
-  background-color: #b22222;
-  color: #fff;
+  background-color: #ffffff;
+  color: rgb(58, 58, 58);
   height: 90px;
+  box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.4);
 }
 
 .header-logo {
@@ -29,33 +31,47 @@ li {
 }
 
 .footer {
-  /* background-colorを#2f5167に変更してください */
-  background-color: #b22222;
-  
-  /* colorを#fffにしてください */
+  background-color: #868686;
   color: #fff;
-  
-  /* heightを120pxに変更してください */
   height: 120px;
-  /* 上下左右のpaddingを40pxにしてください */
   padding: 40px;
-  
 }
 
-/* footer-logoのfont-sizeとfloatを指定してください */
 .footer-logo {
   font-size: 32px;
   float: left;
 }
 
-/* footer-listのfloatを指定してください */
 .footer-list {
-  float: right;
+  float: left;
+  display: flex;
+  margin: 0 0 0 1em;
+  width: 250px;
 }
 
-/* footer-listの中のli要素のpadding-bottomを指定してください */
+.footer-list ul{
+  display: flex
+}
+
 .footer-list li {
   padding-bottom: 20px;
+  border: 1px solid #aaa;
+  line-height: 110%;
+  margin: 0.2em;
+  padding: 0.5em;
+  text-align: center;
+  width: 8em;
+}
+
+.box1 {
+  padding: 0.5em 1em;
+  margin: 2em 0;
+  font-weight: bold;
+  border: solid 3px #000000;
+}
+.box1 p {
+  margin: 0; 
+  padding: 0;
 }
 
 .box29 {
