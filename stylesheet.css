@@ -8,10 +8,11 @@ li {
 }
 
 .header {
+  overflow: hidden;
   background-color: #ffffff;
   color: rgb(58, 58, 58);
-  height: 180px;
-  box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.4);
+  height: 150px;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
 }
 
 .header-logo {
@@ -20,7 +21,7 @@ li {
   padding: 20px 40px;
 }
 
-.header-list {
+.header-sub {
   float: left;
   font-size: 25px;
   padding: 28px 20px;
@@ -29,20 +30,15 @@ li {
 .header-menu li {
   float: left;
   position:relative;
-  top: 50px;
+  top: 60px;
   right: 420px;
-  padding: 33px 20px;
-}
-
-.main {
-  background-color: #ff7f50;
-  height: 1050px;
+  padding: 23px 23px;
 }
 
 .footer {
-  background-color: #868686;
+  background-color: #868686dc;
   color: #fff;
-  height: 100px;
+  height: 80px;
   padding: 40px;
 }
 
@@ -58,7 +54,7 @@ li {
   width: 250px;
 }
 
-.footer-list ul{
+.footer-list ul {
   display: flex
 }
 
@@ -89,6 +85,7 @@ li {
 .box29 {
     margin: 2em 0;
     background: #f0e68c;
+    text-align: center;
 }
 .box29 .box-title {
     font-size: 1.2em;
@@ -108,18 +105,47 @@ li {
   color: rgb(255, 126, 238);
 }
 
-a.btn--orange {
-  color: #fff;
-  background-color: #eb6100;
-  border-bottom: 5px solid #b84c00;
+a.btn {
+  color: rgb(255, 255, 255);
+  background-color: #000000;
+  border-bottom: 5px solid #202020;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+  text-decoration:none;
 }
 a.btn--orange:hover {
   margin-top: 3px;
-  color: #fff;
-  background: #f56500;
-  border-bottom: 2px solid #b84c00;
+  color: rgb(155, 155, 155);
+  background: #ffffff;
+  border-bottom: 2px solid #9b9b9b;
 }
-a.btn--shadow {
-  -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
-  box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
+
+a.button {
+  color: #fff;
+  text-decoration:none;
+}
+a.button--hover:hover {
+  color: rgb(136, 136, 136);
+  background: #ececec;
+  font-size: 1.2em;
+  float: none;
+}
+
+a.social-button {
+  color: rgb(0, 0, 0);
+  text-decoration:none;
+  
+  border: 1px solid #aaa;
+  padding: 5px 10px;
+  width: 75px;
+}
+
+a.social-button--hover:hover {
+  color: rgb(136, 136, 136);
+  text-decoration:none;
+
+  background: #ececec;
+  border: 1px solid #aaa;
+  padding: 5px 10px;
+  float: none;
+  font-size: 1.2em;
 }
