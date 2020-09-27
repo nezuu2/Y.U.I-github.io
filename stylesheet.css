@@ -10,7 +10,7 @@ li {
 .header {
   background-color: #ffffff;
   color: rgb(58, 58, 58);
-  height: 90px;
+  height: 180px;
   box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.4);
 }
 
@@ -20,8 +20,17 @@ li {
   padding: 20px 40px;
 }
 
-.header-list li {
+.header-list {
   float: left;
+  font-size: 25px;
+  padding: 28px 20px;
+}
+
+.header-menu li {
+  float: left;
+  position:relative;
+  top: 50px;
+  right: 420px;
   padding: 33px 20px;
 }
 
@@ -33,7 +42,7 @@ li {
 .footer {
   background-color: #868686;
   color: #fff;
-  height: 120px;
+  height: 100px;
   padding: 40px;
 }
 
@@ -56,11 +65,14 @@ li {
 .footer-list li {
   padding-bottom: 20px;
   border: 1px solid #aaa;
-  line-height: 110%;
+  line-height: 120%;
   margin: 0.2em;
   padding: 0.5em;
   text-align: center;
-  width: 8em;
+  width: 8em; 
+
+  position:relative;
+  bottom:10px;
 }
 
 .box1 {
