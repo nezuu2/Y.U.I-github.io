@@ -10,6 +10,6 @@ Y.U.I AppのGithubサイト：https://github.com/morikentiger/YUI
 
 <!-- # Badges -->
 
-[![Version](https://img.shields.io/badge/version-v0.0.3-00c3ee.svg?style=flat-square)]()
+[![Version](https://img.shields.io/badge/version-v0.0.4-00c3ee.svg?style=flat-square)]()
 
 <!-- CREATED_BY_LEADYOU_README_GENERATOR -->
