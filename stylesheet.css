@@ -1,6 +1,7 @@
 body {
   font-family: "Avenir Next";
   background-color: #e7e7e7;
+  margin: 0;
 }
 
 li {
@@ -83,7 +84,7 @@ li {
 }
 
 .box29 {
-    margin: 2em 0;
+    margin: 2em 0.5rem;
     background: #f0e68c;
     text-align: center;
 }
