@@ -130,6 +130,16 @@ a.button--hover:hover {
   float: none;
 }
 
+a.button.black {
+  color: rgb(151, 151, 151);
+  background: #2c2c2c;
+}
+a.button.black:hover {
+  background: #000000;
+  content: "ホームへ戻る";
+  font-size: 1.2em;
+}
+
 a.social-button {
   color: rgb(0, 0, 0);
   text-decoration:none;
