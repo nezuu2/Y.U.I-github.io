@@ -30,10 +30,33 @@ li {
 
 .header-menu li {
   float: left;
-  position:relative;
-  top: 60px;
-  right: 420px;
+  display: flex;
+
+  position: relative;
+  top: 3em;
+  right: 32.5em;
   padding: 23px 23px;
+}
+
+nav {
+  text-align: center;
+}
+nav ul {
+  width: 1110px;
+  margin: 0 auto;
+  /* background: #ddd; */
+}
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  display: inline-block;
+  height: 55px;
+  line-height: 55px;
+  color: rgba(255,255,255,.5);
+  text-decoration: none;
+  padding: 0 35px;
 }
 
 .footer {
@@ -170,7 +193,8 @@ a.button.contenue:hover {
 a.tabs-button {
   color: rgb(69, 89, 122);
   text-decoration:none;
-  
+  font-size: 1.3rem;
+
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -179,6 +203,7 @@ a.tabs-button {
 a.tabs-button:hover {
   color: rgb(69, 89, 122, 0.6);
   text-decoration:none;
+  font-size: 2rem;
 
   background: #ececec;
   background-size: 3.2em;
