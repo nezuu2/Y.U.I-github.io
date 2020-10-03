@@ -144,10 +144,9 @@ a.button {
   color: #fff;
   text-decoration:none;
 }
-a.button--hover:hover {
-  color: rgb(175, 175, 175);
+a.button:hover {
+  color: rgb(170, 170, 170);
   background: #ececec;
-  font-size: 1.2em;
   float: none;
 }
 
@@ -157,8 +156,7 @@ a.button.black {
 }
 a.button.black:hover {
   background: #000000;
-  content: "ホームへ戻る";
-  font-size: 1.2em;
+  /*content: "ホームへ戻る";*/
 }
 a.button.contenue {
   color: rgb(255, 255, 255);
@@ -170,23 +168,19 @@ a.button.contenue:hover {
 }
 
 a.tabs-button {
-  color: rgb(44, 54, 58);
+  color: rgb(69, 89, 122);
   text-decoration:none;
   
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  /*justify-content: space-between;*/
+  justify-content: space-between;
 }
 
-a.tabs-button--hover:hover {
+a.tabs-button:hover {
   color: rgb(69, 89, 122, 0.6);
   text-decoration:none;
 
   background: #ececec;
-  border: 1px solid #aaa;
-  align-items: center;
-  display: block;
+  background-size: 3.2em;
   justify-content: space-between;
-  font-size: 1.2em;
 }
