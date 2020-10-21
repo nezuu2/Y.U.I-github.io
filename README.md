@@ -1,15 +1,17 @@
-# Y.U.I-github.io
+# YUI-github.io
 
 <!-- # Short Description -->
 
-これはY.U.I Appのサイトバージョンです。
+これはYUI Appのサイトバージョンです。
 
 このサイトのリンク：https://nezuu2.github.io/Y.U.I-github.io/
 
-Y.U.I AppのGithubサイト：https://github.com/morikentiger/YUI
+このサイトで使わせていただいた素材：https://nezuu2.github.io/Y.U.I-github.io/
+
+YUI AppのGithubサイト：https://github.com/morikentiger/YUI
 
 <!-- # Badges -->
 
-[![Version](https://img.shields.io/badge/version-v0.0.8-00c3ee.svg?style=flat-square)]()
+[![Version](https://img.shields.io/badge/version-v0.0.9-00c3ee.svg?style=flat-square)]()
 
 <!-- CREATED_BY_LEADYOU_README_GENERATOR -->
