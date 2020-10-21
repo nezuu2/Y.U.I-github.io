@@ -2,7 +2,6 @@ body {
   font-family: "Avenir Next";
   background-color: #ffffff;
   margin: 0;
-  overflow: hidden;
 }
 
 li {
@@ -223,6 +222,11 @@ nav ul li a {
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.07);
 
   position:relative;
+}
+
+.left-picture {
+  position: absolute;
+  left: 20rem;
 }
 
 #YUI {
