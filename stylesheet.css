@@ -232,6 +232,11 @@ nav ul li a {
   left: 20rem;
 }
 
+chapter {
+  position: absolute;
+  left: 20rem;
+}
+
 #YUI {
   color: rgb(255, 126, 238);
 }
