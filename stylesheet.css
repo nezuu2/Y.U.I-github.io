@@ -20,12 +20,14 @@ li {
   float: left;
   font-size: 36px;
   padding: 20px 40px;
+  letter-spacing: 0.05em;
 }
 
 .header-sub {
   float: left;
   font-size: 25px;
   padding: 28px 20px;
+  letter-spacing: 0.05em;
 }
 
 .header-menu li {
@@ -124,20 +126,30 @@ nav ul li a {
     padding: 15px 20px;
     margin: 0;
 }
+.box29 ol {
+  text-align: left;
+}
+
+.before-credo {
+  margin-top: .5rem;
+}
 .credo {
     padding: 15px 20px;
     margin: 0;
+    display: inline-block
 }
 .credo li {
-  font: 1rem 'Fira Sans', sans-serif;
   margin-bottom: .5rem;
+  text-align: left;
+  list-style: unset;
 }
-.credo-prefix {
-  margin-top: .5rem;
+.credo.list-style-none {
+  margin-right: 2%;
+  list-style: none;
 }
 
 .box29.black {
-  background:#e7e7e7;
+  background:#f0f0f0;
   border: solid 2px #ffffff;
 }
 .box29.white {
@@ -155,12 +167,21 @@ nav ul li a {
   font-weight: bold;
   letter-spacing: 0.05em;
 }
-.box29 .box-title--white {
+.box29 .box-title--wood {
   font-size: 1.2em;
-  background: rgb(245, 245, 245);
+  background: rgba(0, 0, 0, 0.521);
   padding: 6px;
   text-align: center;
   color: rgb(156, 79, 7);
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}
+.box29 .box-title--blue {
+  font-size: 1.2em;
+  background: #001e57;
+  padding: 6px;
+  text-align: center;
+  color: #FFF;
   font-weight: bold;
   letter-spacing: 0.05em;
 }
