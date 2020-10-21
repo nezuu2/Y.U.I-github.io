@@ -64,8 +64,11 @@ nav ul li a {
 .footer {
   background-color: #868686dc;
   color: #fff;
-  height: 80px;
+  height: 100px; 
+  width: 95.8%;
   padding: 40px;
+  position: absolute;
+  bottom: 0;
 }
 
 .footer-logo {
