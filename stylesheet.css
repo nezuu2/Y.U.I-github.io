@@ -185,6 +185,42 @@ nav ul li a {
   font-weight: bold;
   letter-spacing: 0.05em;
 }
+.box29 .box-title--yellow {
+  font-size: 1.2em;
+  background: rgba(0, 0, 0, 0.521);
+  padding: 6px;
+  text-align: center;
+  color: rgb(255, 230, 0);
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}
+
+.left-and-right-handed-drawing p {
+  display: inline-block;
+  margin: auto 35px;
+
+  position: relative;
+  bottom: 4.5rem;
+  right: 3rem;
+}
+.left-and-right-handed-drawing img {
+  display: inline-block;
+  margin: auto 35px;
+
+  position: relative;
+  bottom: -2rem;
+  right: 5rem;
+}
+.left-and-right-handed-drawing li {
+  margin: 0 auto;
+  text-align: center;
+  width: 63em;
+  height: 18em;
+  border: solid 0px #000000;
+  background-color:rgb(221, 221, 221);
+
+  position:relative;
+}
 
 #YUI {
   color: rgb(255, 126, 238);
