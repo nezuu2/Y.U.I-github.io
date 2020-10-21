@@ -20,12 +20,14 @@ li {
   float: left;
   font-size: 36px;
   padding: 20px 40px;
+  letter-spacing: 0.05em;
 }
 
 .header-sub {
   float: left;
   font-size: 25px;
   padding: 28px 20px;
+  letter-spacing: 0.05em;
 }
 
 .header-menu li {
@@ -124,16 +126,22 @@ nav ul li a {
     padding: 15px 20px;
     margin: 0;
 }
+.box29 ol {
+  text-align: left;
+}
+
+.credo-prefix {
+  margin-top: .5rem;
+}
 .credo {
     padding: 15px 20px;
     margin: 0;
+    display: inline-block
 }
 .credo li {
-  font: 1rem 'Fira Sans', sans-serif;
   margin-bottom: .5rem;
-}
-.credo-prefix {
-  margin-top: .5rem;
+  text-align: left;
+  list-style: unset;
 }
 
 .box29.black {
