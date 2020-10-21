@@ -2,6 +2,7 @@ body {
   font-family: "Avenir Next";
   background-color: #ffffff;
   margin: 0;
+  overflow: hidden;
 }
 
 li {
@@ -65,7 +66,7 @@ nav ul li a {
   background-color: #868686dc;
   color: #fff;
   height: 100px; 
-  width: 95.8%;
+  width: 100%;
   padding: 40px;
   position: absolute;
   bottom: 0;
@@ -304,4 +305,10 @@ a.tabs-button:hover {
   background: #ececec;
   background-size: 3.2em;
   justify-content: space-between;
+}
+
+.copy-right {
+  text-decoration:none;
+  color: rgb(131, 131, 131);
+  margin: 0px 5px;
 }
