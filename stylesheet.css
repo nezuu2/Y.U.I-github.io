@@ -132,6 +132,9 @@ nav ul li a {
   font: 1rem 'Fira Sans', sans-serif;
   margin-bottom: .5rem;
 }
+.credo-prefix {
+  margin-top: .5rem;
+}
 
 .box29.black {
   background:#e7e7e7;
