@@ -113,12 +113,12 @@ nav ul li a {
 
 .box29 {
     margin: 2em 0.5rem;
-    background: #f0e68c;
+    background: #f0f0f0;
     text-align: center;
 }
 .box29 .box-title {
     font-size: 1.2em;
-    background: #ff8c00;
+    background: #59aff5;
     padding: 6px;
     text-align: center;
     color: #FFF;
@@ -160,6 +160,13 @@ nav ul li a {
   color: #ffffff;
   border: solid 2px #ffffff;
 }
+.box29.wood {
+  background-image: url("木目模様2（茶色）.jpg");
+  background-color: rgba(0, 0, 0, 0.781);
+  background-blend-mode:lighten;
+  color: #ffffff;
+  border: solid 2px #ffffff;
+}
 
 .box29 .box-title--black {
   font-size: 1.2em;
@@ -167,15 +174,6 @@ nav ul li a {
   padding: 6px;
   text-align: center;
   color: #FFF;
-  font-weight: bold;
-  letter-spacing: 0.05em;
-}
-.box29 .box-title--wood {
-  font-size: 1.2em;
-  background: rgba(0, 0, 0, 0.521);
-  padding: 6px;
-  text-align: center;
-  color: rgb(156, 79, 7);
   font-weight: bold;
   letter-spacing: 0.05em;
 }
@@ -190,7 +188,7 @@ nav ul li a {
 }
 .box29 .box-title--yellow {
   font-size: 1.2em;
-  background: rgba(0, 0, 0, 0.521);
+  background: rgba(0, 0, 0, 0.103);
   padding: 6px;
   text-align: center;
   color: rgb(255, 230, 0);
@@ -221,6 +219,7 @@ nav ul li a {
   height: 18em;
   border: solid 0px #000000;
   background-color:rgb(221, 221, 221);
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.07);
 
   position:relative;
 }
@@ -229,17 +228,28 @@ nav ul li a {
   color: rgb(255, 126, 238);
 }
 
+address a:hover {
+  background-color: #3a4ad625;
+}
+
 a.btn {
   color: rgb(255, 255, 255);
-  background-color: #000000;
-  border-bottom: 5px solid #202020;
+  background-color: #62c5ff;
+  border-bottom: 5px solid #3d9cf5;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+  text-decoration:none;
+}
+a.btn2 {
+  color: rgb(255, 255, 255);
+  background-color: #4e4e4e;
+  border-bottom: 5px solid #000000;
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
   text-decoration:none;
 }
 a.btn--black:hover {
   margin-top: 3px;
-  color: rgb(155, 155, 155);
-  background: #ffffff;
+  color: rgb(90, 105, 202);
+  background: #00d9ff;
   border-bottom: 2px solid #9b9b9b;
 }
 a.btn--black2:hover {
