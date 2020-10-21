@@ -143,8 +143,8 @@ nav ul li a {
   text-align: left;
   list-style: unset;
 }
-.credo.list-style-none {
-  margin-right: 2%;
+.credo.list-style-none li {
+  text-align: center;
   list-style: none;
 }
 
