@@ -68,7 +68,7 @@ nav ul li a {
   height: 100px; 
   width: 100%;
   padding: 40px;
-  position: fixed;
+  position: relative;
   bottom: 0;
 }
 
@@ -200,15 +200,17 @@ nav ul li a {
 .left-and-right-handed-drawing p {
   display: inline-block;
   margin: auto 35px;
+  float: left;
 
   position: relative;
-  bottom: 4.5rem;
-  right: 3rem;
+  top: 6rem;
+  left: 2rem;
 }
 .left-and-right-handed-drawing img {
   display: inline-block;
   margin: auto 35px;
-
+  float: right;
+  
   position: relative;
   bottom: -2rem;
   right: 5rem;
