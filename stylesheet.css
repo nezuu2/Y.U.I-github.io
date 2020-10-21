@@ -124,17 +124,40 @@ nav ul li a {
     padding: 15px 20px;
     margin: 0;
 }
+.credo {
+    padding: 15px 20px;
+    margin: 0;
+}
+.credo li {
+  font: 1rem 'Fira Sans', sans-serif;
+  margin-bottom: .5rem;
+}
 
 .box29.black {
   background:#e7e7e7;
   border: solid 2px #ffffff;
 }
+.box29.white {
+  background:#292929;
+  color: #ffffff;
+  border: solid 2px #ffffff;
+}
+
 .box29 .box-title--black {
   font-size: 1.2em;
   background: #222222;
   padding: 6px;
   text-align: center;
   color: #FFF;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}
+.box29 .box-title--white {
+  font-size: 1.2em;
+  background: rgb(245, 245, 245);
+  padding: 6px;
+  text-align: center;
+  color: rgb(156, 79, 7);
   font-weight: bold;
   letter-spacing: 0.05em;
 }
