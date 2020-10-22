@@ -102,6 +102,10 @@ a.tabs-button:hover {
   bottom:10px;
 }
 
+.circle-shap {
+  border-radius: 22px;
+}
+
 .box1 {
   padding: 0.5em 1em;
   margin: 2em 0;
