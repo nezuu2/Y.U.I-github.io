@@ -31,35 +31,38 @@ li {
   letter-spacing: 0.05em;
 }
 
-.header-menu li {
-  float: left;
-  display: flex;
-
-  position: relative;
-  top: 3em;
-  right: 32.5em;
-  padding: 23px 23px;
-}
-
-nav {
-  text-align: center;
-}
 nav ul {
-  width: 1110px;
-  margin: 0 auto;
-  /* background: #ddd; */
-}
-nav ul li {
-  display: inline-block;
+  text-align: center;
+
+  display: inline-flex;
+  position: absolute;
+  left: 0rem;
+  top: 4.5rem;
 }
 
-nav ul li a {
-  display: inline-block;
-  height: 55px;
-  line-height: 55px;
-  color: rgba(255,255,255,.5);
-  text-decoration: none;
-  padding: 0 35px;
+nav li {
+  width: 100px;
+  margin: auto;
+}
+
+a.tabs-button {
+  color: rgb(69, 89, 122);
+  text-decoration:none;
+  font-size: 1.3rem;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+a.tabs-button:hover {
+  color: rgb(69, 89, 122, 0.6);
+  text-decoration:none;
+  font-size: 1.6rem;
+
+  background: #ececec;
+  background-size: 3.2em;
+  justify-content: space-between;
 }
 
 .footer {
@@ -305,26 +308,6 @@ a.button.contenue {
 a.button.contenue:hover {
   background: #222222;
   font-size: 1.2em;
-}
-
-a.tabs-button {
-  color: rgb(69, 89, 122);
-  text-decoration:none;
-  font-size: 1.3rem;
-
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-a.tabs-button:hover {
-  color: rgb(69, 89, 122, 0.6);
-  text-decoration:none;
-  font-size: 1.6rem;
-
-  background: #ececec;
-  background-size: 3.2em;
-  justify-content: space-between;
 }
 
 .copy-right {
