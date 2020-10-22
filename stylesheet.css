@@ -41,7 +41,7 @@ nav ul {
 }
 
 nav li {
-  padding: 30px;
+  padding: 29px;
 }
 
 a.tabs-button {
@@ -50,18 +50,16 @@ a.tabs-button {
   font-size: 1.3rem;
 
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  transition: all 300ms 0s ease-out;
 }
-
 a.tabs-button:hover {
   color: rgb(69, 89, 122, 0.6);
   text-decoration:none;
   font-size: 1.6rem;
+  padding: 0px 15px;
 
   background: #ececec;
-  background-size: 3.2em;
-  justify-content: space-between;
+  box-shadow: 11px 0;
 }
 
 .footer {
@@ -130,7 +128,7 @@ a.tabs-button:hover {
     letter-spacing: 0.05em;
 }
 .box29 p {
-    padding: 15px 20px;
+    padding: 15px 150px;
     margin: 0;
 }
 .box29 ol {
@@ -217,6 +215,10 @@ a.tabs-button:hover {
   position: relative;
   bottom: -2rem;
   right: 5rem;
+  transition: all 300ms 0s ease-in;
+}
+.left-and-right-handed-drawing:hover img {
+  width: 20em;
 }
 .left-and-right-handed-drawing li {
   margin: 0 auto;
@@ -231,13 +233,18 @@ a.tabs-button:hover {
 }
 
 .left-picture {
-  position: absolute;
-  left: 20rem;
+  float: left;
+  position: relative;
+  left: 5rem;
 }
 
 chapter {
   position: absolute;
-  left: 20rem;
+  margin-left: -12rem;
+  transition: all 280ms 0s ease-in;
+}
+chapter:hover {
+  color: green;
 }
 
 #YUI {
@@ -254,6 +261,9 @@ chapter {
 address a:hover {
   background-color: #3a4ad625;
 }
+a.link:hover {
+  background-color: #3a4ad625;
+}
 
 a.btn {
   color: rgb(255, 255, 255);
@@ -261,6 +271,7 @@ a.btn {
   border-bottom: 5px solid #3d9cf5;
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
   text-decoration:none;
+  transition: all 200ms 0s ease-out;
 }
 a.btn2 {
   color: rgb(255, 255, 255);
@@ -271,7 +282,13 @@ a.btn2 {
 }
 a.btn--black:hover {
   margin-top: 3px;
-  color: rgb(90, 105, 202);
+  color: rgb(230, 233, 255);
+  background: #00c3ff;
+  border-bottom: 2px solid #9b9b9b;
+}
+a.btn--black:active {
+  margin-top: 3px;
+  color: rgb(97, 185, 226);
   background: #00d9ff;
   border-bottom: 2px solid #9b9b9b;
 }
@@ -285,21 +302,29 @@ a.btn--black2:hover {
 a.button {
   color: #fff;
   text-decoration:none;
+  transition: all 300ms 0.01s ease-out
 }
 a.button:hover {
   color: rgb(170, 170, 170);
   background: #ececec;
   float: none;
 }
-
+a.button:active {
+  background: #dbdbdb;
+  color: white;
+  float: none;
+}
 a.button.black {
   color: rgb(151, 151, 151);
   background: #2c2c2c;
 }
 a.button.black:hover {
   background: #000000;
-  /*content: "ホームへ戻る";*/
 }
+a.button.black:active {
+  color: white;
+}
+
 a.button.contenue {
   color: rgb(255, 255, 255);
   background: #747474;
@@ -312,65 +337,18 @@ a.button.contenue:hover {
 .copy-right {
   text-decoration:none;
   color: rgb(131, 131, 131);
-  margin-left: 5px;
+  position: relative;
+  left: 5px;
+  transition: all 300ms 0s ease;
+}
+.copy-right:hover {
+  color: #c0c0c0
 }
 
-/*全体*/
-.hidden_box {
-  margin: 2em 0;
-  padding: 0;
+.hidden {
+  align-items: auto;
+  color: rgba(255, 255, 255, 0);
+  transition: all 300ms 0s ease;
 }
-
-/*ボタン装飾*/
-.hidden_box label {
-  padding: 15px;
-  font-weight: bold;
-  background: #efefef;
-  border-radius: 5px;
-  cursor :pointer;
-  transition: .5s;
-}
-
-/*アイコンを表示*/
-.hidden_box label:before {
-  display: inline-block;
-  content: '\f078';
-  font-family: 'FontAwesome';
-  padding-right: 5px;
-  transition: 0.2s;
-}
-
-/*ボタンホバー時*/
-.hidden_box label:hover {
-  background: silver;
-}
-
-/*アイコンを切り替え*/
-.hidden_box input:checked + label:before {
-   content: '\f00d';
-   -ms-transform: rotate(360deg);
-   -webkit-transform: rotate(360deg);
-   transform: rotate(360deg);
-   color: #668ad8;
-}
-
-/*チェックは見えなくする*/
-.hidden_box input {
-  display: none;
-}
-
-/*中身を非表示にしておく*/
-.hidden_box .hidden_show {
-  height: 0;
-  padding: 0;
-  overflow: hidden;
-  opacity: 0;
-  transition: 0.8s;
-}
-
-/*クリックで中身表示*/
-.hidden_box input:checked + label + .hidden_show {
-  padding: 10px 0;
-  height: auto;
-  opacity: 1;
+a.button.contenue:active {
 }
