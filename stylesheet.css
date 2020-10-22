@@ -2,6 +2,7 @@ body {
   font-family: "Avenir Next";
   background-color: #ffffff;
   margin: 0;
+  overflow: hidden;
 }
 
 li {
