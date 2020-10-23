@@ -201,6 +201,34 @@ a.tabs-button:hover {
   font-weight: bold;
   letter-spacing: 0.05em;
 }
+.box29 .box-title--news {
+  font-size: 1.2em;
+  padding: 6px;
+  text-align: center;
+  color: #FFF;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+
+  background-color: #e74c3c;
+  animation: bg-color 10s infinite;
+  -webkit-animation: bg-color 10s infinite;
+}
+@-webkit-keyframes bg-color {
+  0% { background-color: #ffae95; }
+  20% { background-color: #a9f5ff; }
+  40% { background-color:#89d0ff; }
+  60% { background-color: #3498db; }
+  80% { background-color: #001e57; }
+  100% { background-color: #e74c3c; }
+}
+@keyframes bg-color {
+  0% { background-color: #ffae95; }
+  20% { background-color: #a9f5ff; }
+  40% { background-color:#89d0ff; }
+  60% { background-color: #3498db; }
+  80% { background-color: #001e57; }
+  100% { background-color: #e74c3c; }
+}
 
 .left-and-right-handed-drawing p {
   display: inline-block;
@@ -269,10 +297,6 @@ chapter {
 }
 chapter:hover {
   color: green;
-}
-
-#YUI {
-  color: rgb(255, 126, 238);
 }
 
 .font-cursive {
@@ -349,15 +373,6 @@ a.button.black:active {
   color: white;
 }
 
-a.button.contenue {
-  color: rgb(255, 255, 255);
-  background: #747474;
-}
-a.button.contenue:hover {
-  background: #222222;
-  font-size: 1.2em;
-}
-
 .copy-right {
   text-decoration:none;
   color: rgb(131, 131, 131);
@@ -374,5 +389,40 @@ a.button.contenue:hover {
   color: rgba(255, 255, 255, 0);
   transition: all 300ms 0s ease;
 }
-a.button.contenue:active {
+
+/** ボタン **/
+.disp-box label {
+  display: inline-block;
+  color: #bebebe;                   /* ボタンの文字色 */
+  background-color: #525252;        /* ボタンの背景色 */
+  font-weight: bold;                /* 文字の太さ */
+  padding: 0.5em 1em;               /* ボタン内側の余白 */
+  border-bottom: solid 4px #3b3b3b; /* ボタンの影部分 */
+  border-radius: 3px;               /* 角丸 */
+  cursor: pointer;                  /* ボタンにカーソルを合わせた時に指アイコンを表示 */
+}
+/** ボタンクリック時のボタンを押し込む動作 **/
+.disp-box label:active {
+  -webkit-transform: translateY(4px); /* Chrome、Safari用 */
+  -moz-transform: translateY(4px);    /* Firefox用 */
+  -ms-transform: translateY(4px);     /* IE用 */
+  transform: translateY(4px);
+  border-bottom: none;
+}
+/** チェックボックス **/
+.disp-box input {
+  display: none; /* 非表示 */
+}
+/** 表示・非表示を切り替えるテキスト（「クリックされました！」の部分） **/
+.disp-box .text {
+  color: #e2242a;    /* 文字色 */
+  font-weight: bold; /* 文字の太さ */
+  overflow: hidden;
+  opacity: 0;        /* 文字を非表示 */
+  transition: 0.2s;  /* 文字が表示・非表示される時のスピード */
+}
+/** チェックボックスにチェックが入った時の、テキストの処理 **/
+.disp-box input:checked ~ .text {
+  height: auto;
+  opacity: 1; /* 文字を表示 */
 }
