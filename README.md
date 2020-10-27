@@ -2,7 +2,7 @@
 
 <!-- # Short Description -->
 
-これはYUI Appのサイトバージョンです。
+このサイトはYUI Appの公式サイトです。
 
 このサイトのリンク：https://nezuu2.github.io/Y.U.I-github.io/
 
