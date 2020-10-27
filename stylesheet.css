@@ -282,6 +282,16 @@ li-title {
   font-size: 20px;
   background: rgba(255, 17, 0, 0.123);
   display: block;
+  transition: all 200ms 0s ease-in;
+
+  /**グラデーションが合わなかったから追加しなかった
+  background: linear-gradient(to right, rgb(255, 0, 64), pink);
+  **/
+}
+li-title:hover {
+  border-bottom: 2px solid #f03f3f;
+  color: #f03f3f;
+  box-shadow: 11px 0;
 }
 
 .left-picture {
