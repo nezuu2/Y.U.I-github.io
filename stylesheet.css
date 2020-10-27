@@ -296,8 +296,11 @@ li-title:hover {
 
 .left-picture {
   float: left;
-  position: relative;
-  left: 5rem;
+  position: absolute;
+  left: 10rem;
+}
+.left-aligned {
+  text-align: left;
 }
 
 chapter {
