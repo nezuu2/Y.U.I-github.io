@@ -110,6 +110,16 @@ a.tabs-button:hover {
   border-radius: 22px;
 }
 
+.text-background-circle {
+  background: lightgray;
+  padding: 0% 4%;
+  border-radius: 22px;
+}
+.text-background-circle.blue {
+  background: linear-gradient(to right, blue, rgb(43, 153, 255), aqua);
+  color: white;
+}
+
 .box1 {
   padding: 0.5em 1em;
   margin: 2em 0;
