@@ -171,6 +171,11 @@ a.tabs-button:hover {
   list-style: none;
 }
 
+gray-out {
+  color: #646464;
+  font-size: 99%;
+}
+
 .box29.black {
   background:#f0f0f0;
   border: solid 2px #ffffff;
