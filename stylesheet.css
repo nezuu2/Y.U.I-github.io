@@ -156,6 +156,12 @@ a.tabs-button.black:hover {
     font-weight: bold;
     letter-spacing: 0.05em;
 }
+.box-title.blue {
+  background: #008cff;
+}
+.box-title.red {
+  background: #ff0000;
+}
 .box29 p {
     padding: 15px 150px;
     margin: 0;
